@@ -17,6 +17,7 @@ public class DogHouse {
     }
 
     public static void remove(Dog dog) {
+
         dogHouse.removeAnimal(dog);
     }
 
@@ -29,6 +30,7 @@ public class DogHouse {
     }
 
     public static void clear() {
+
         dogHouse.clear();
     }
 }
